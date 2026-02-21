@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Immo Schreiber × ATAL — Appartements à Wrocław</title>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+  <!-- ══════════ NAVIGATION ══════════ -->
+  <nav id="navbar">
+    <div class="nav-logo">
+      <div class="nav-logo-texte">
+        <strong>IMMO SCHREIBER</strong>
+        Partenaire officiel
+      </div>
+      <div class="nav-sep"></div>
+      <div class="nav-atal">
+        <img src="./images/ATAAL logo copie.png" alt="ATAL Logo">
+      </div>
+    </div>
+
+    <ul class="nav-liens">
+      <li><a href="#projets">Appartements</a></li>
+      <li><a href="#plein-ecran">À propos</a></li>
+      <li><a href="#guide">Guide investisseur</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="https://atal.pl/en/inwestycje/apartments/wroclaw-en-apartments/" target="_blank" class="nav-btn-rouge">Site officiel ATAL</a></li>
+    </ul>
+  </nav>
+
+
+  <!-- ══════════ HERO ══════════ -->
+  <!-- padding-top dans le CSS pour compenser la navbar fixe -->
+  <section class="hero">
+    <img src="./images/présentation header.jpg" alt="Appartements ATAL Wrocław">
+    <div class="hero-contenu">
+      <h1>Appartements à Wrocław <br>Pologne</h1>
+      <p class="hero-sous">
+        Immo Schreiber vous présente les appartements neufs ATAL à Wrocław — une opportunité d'investissement unique, accessible depuis le Luxembourg.
+      </p>
+      <div class="hero-actions">
+        <a href="#projets" class="btn-blanc">Découvrir les projets</a>
+        <a href="#contact" class="btn-contour-blanc">Nous contacter</a>
+      </div>
+    </div>
+    <div class="scroll-ind"></div>
+  </section>
+
+
+  <!-- ══════════ BANDEAU TEL ══════════ -->
+  <div class="bandeau-tel">
+    📞 Renseignements & visites : <a href="tel:+352621260341">+352 621 260 341</a> — Immo Schreiber, votre intermédiaire francophone pour ATAL
+  </div>
+
+
+  <!-- ══════════ INTRO ══════════ -->
+  <section class="intro">
+    <div class="intro-texte">
+      <div class="etiquette">ATAL S.A.</div>
+      <h2>L'expérience qui<br><em>bâtit</em> depuis 35 ans</h2>
+      <div class="texte-corps">
+        <p>
+          ATAL S.A. est l'un des plus grands promoteurs immobiliers de Pologne. Fondée en 1990
+        <p>
+          Immo Schreiber est votre intermédiaire francophone basé au Luxembourg. Nous facilitons toutes les démarches : visites, financement, signature — en français.
+        </p>
+      </div>
+    </div>
+    <div class="intro-image" >
+      <img src="./images/bureau.jpg" alt="">
+      <div class="badge-img">
+        <span>35</span>
+        <small>Ans d'expérience</small>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ══════════ GRANDE IMAGE STYLE OPOCZYNSKA ══════════ -->
+  <section id="plein-ecran">
+    <div id="carouselOpoczyńska" class="carousel slide carousel-fade" data-bs-ride="false" data-bs-interval="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active carousel-bg" style="background-image: url('./images/slider1.jpg');">
+          <div class="plein-ecran-texte">
+            <div class="etiquette">Wrocław · Disponible maintenant</div>
+            <h2><em>Profitez de la vie</em><br>dans un lieu qui inspire</h2>
+            <div class="plein-ecran-nom">ATAL Opoczyńska</div>
+          </div>
+        </div>
+        <div class="carousel-item carousel-bg" style="background-image: url('./images/slider3.jpg');"></div>
+        <div class="carousel-item carousel-bg" style="background-image: url('./images/slider4.jpg');"></div>
+        <div class="carousel-item carousel-bg" style="background-image: url('./images/slider5.jpg');"></div>
+        <div class="carousel-item carousel-bg" style="background-image: url('./images/slider6.jpg');"></div>
+        <div class="carousel-item carousel-bg" style="background-image: url('./images/slider7.jpg');"></div>
+        <div class="carousel-item carousel-bg" style="background-image: url('./images/slider8.jpg');"></div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselOpoczyńska" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Précédent</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselOpoczyńska" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Suivant</span>
+      </button>
+    </div>
+  </section>
+
+
+  <!-- ══════════ PROJETS ══════════ -->
+  <section id="projets" class="projets">
+    <div class="projets-header">
+      <div>
+        <div class="etiquette">Nos projets</div>
+        <h2>Appartements à <em>Wrocław</em></h2>
+      </div>
+      <a href="https://atal.pl/en/inwestycje/apartments/wroclaw-en-apartments/" target="_blank" class="lien-rouge">
+        Tous les projets ATAL →
+      </a>
+    </div>
+
+    <div class="grille-projets-nouvelle">
+
+      <!-- Carte 1 -->
+      <div class="projet-carte">
+        <div class="projet-image">
+          <img src="./images/carte1.png" alt="ATAL Grabiszyn">
+        </div>
+        <div class="projet-infos">
+          <div class="projet-localisation">Wrocław, ul. Grochowa</div>
+          <h3 class="projet-nom">ATAL Grabiszyn</h3>
+          <div class="projet-details">
+            <div class="projet-detail-item">
+              <span>Appartements disponible:</span>
+              <strong>47</strong>
+            </div>
+            <div class="projet-detail-item">
+              <span>Fin de construction:</span>
+              <strong>Q1 2027</strong>
+            </div>
+          </div>
+          <button class="projet-btn">
+            <a href="https://atal.pl/en/inwestycja/atal-grabiszyn-2/?search=2&apartments-type[]=710" target="_blank">VOIR</a>
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+              <path d="M6 3L11 8L6 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Carte 2 -->
+      <div class="projet-carte">
+        <div class="projet-image">
+          <img src="./images/carte2.png" alt="Wrocław, ul. Maxa Berga">
+        </div>
+        <div class="projet-infos">
+          <div class="projet-localisation">Wrocław, ul. Maxa Berga</div>
+          <h3 class="projet-nom">Zernik Na Novo III</h3>
+          <div class="projet-details">
+            <div class="projet-detail-item">
+              <span>Appartements disponible:</span>
+              <strong>250</strong>
+            </div>
+            <div class="projet-detail-item">
+              <span>Fin de construction:</span>
+              <strong>Q4 2026</strong>
+            </div>
+          </div>
+          <button class="projet-btn">
+            <a href="https://zernikinanovo.pl/" target="_blank">VOIR</a>
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+              <path d="M6 3L11 8L6 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Carte 3 -->
+      <div class="projet-carte">
+        <div class="projet-image">
+          <img src="./images/carte3.png" alt="Wrocław,ul. Strachowicka">
+        </div>
+        <div class="projet-infos">
+          <div class="projet-localisation">Wrocław,ul. Strachowicka</div>
+          <h3 class="projet-nom">ATAL Strachowicka II</h3>
+          <div class="projet-details">
+            <div class="projet-detail-item">
+              <span>Appartements disponible:</span>
+              <strong>162</strong>
+            </div>
+            <div class="projet-detail-item">
+              <span>Fin de construction:</span>
+              <strong>Q2 2026</strong>
+            </div>
+          </div>
+          <button class="projet-btn">
+            <a href="https://strachowicka.pl/" target="_blank">VOIR</a>
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+              <path d="M6 3L11 8L6 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Carte 4 -->
+      <div class="projet-carte">
+        <div class="projet-image">
+          <img src="./images/carte4.png" alt="ATAL Parkowa">
+        </div>
+        <div class="projet-infos">
+          <div class="projet-localisation">Wrocław, ul. Maxa Berga</div>
+          <h3 class="projet-nom">Zerniki Na Novo II</h3>
+          <div class="projet-details">
+            <div class="projet-detail-item">
+              <span>Appartements disponible:</span>
+              <strong>285</strong>
+            </div>
+            <div class="projet-detail-item">
+              <span>Fin de construction:</span>
+              <strong>Q2 2026</strong>
+            </div>
+          </div>
+          <button class="projet-btn">
+            <a href="https://zernikinanovo.pl/" target="_blank">VOIR</a>
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+              <path d="M6 3L11 8L6 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Carte 5 -->
+      <div class="projet-carte">
+        <div class="projet-image">
+          <img src="./images/carte5.png" alt="ATAL Residence">
+        </div>
+        <div class="projet-infos">
+          <div class="projet-localisation">Wrocław, ul. Maxa Berga</div>
+          <h3 class="projet-nom">Zerniki Na Novo</h3>
+          <div class="projet-details">
+            <div class="projet-detail-item">
+              <span>Appartements disponible:</span>
+              <strong>90</strong>
+            </div>
+            <div class="projet-detail-item">
+              <span>Permis d'utilisation:</span>
+              <strong>Q4 2025</strong>
+            </div>
+          </div>
+          <button class="projet-btn">
+            <a href="https://zernikinanovo.pl/" target="_blank">VOIR</a>
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+              <path d="M6 3L11 8L6 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Carte 6 -->
+      <div class="projet-carte">
+        <div class="projet-image">
+          <img src="./images/carte6.png" alt="ATAL Boulevard">
+        </div>
+        <div class="projet-infos">
+          <div class="projet-localisation">Wrocław, ul. Opoczynska</div>
+          <h3 class="projet-nom">Na Opoczynskiej</h3>
+          <div class="projet-details">
+            <div class="projet-detail-item">
+              <span>Appartements disponible:</span>
+              <strong>26</strong>
+            </div>
+            <div class="projet-detail-item">
+              <span>Permis d'utilisation:</span>
+              <strong>Q2 2025</strong>
+            </div>
+          </div>
+          <button class="projet-btn">
+            <a href="https://naopoczynskiej.pl/" target="_blank">VOIR</a>
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+              <path d="M6 3L11 8L6 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Carte 7 -->
+      <div class="projet-carte">
+        <div class="projet-image">
+          <img src="./images/carte7.png" alt="ATAL Garden">
+        </div>
+        <div class="projet-infos">
+          <div class="projet-localisation">Wrocław, ul. Madalinskiego</div>
+          <h3 class="projet-nom">ATAL City Square II</h3>
+          <div class="projet-details">
+            <div class="projet-detail-item">
+              <span>Appartements disponible:</span>
+              <strong>111</strong>
+            </div>
+            <div class="projet-detail-item">
+              <span>Permis d'utilisation:</span>
+              <strong>Q2 2023</strong>
+            </div>
+          </div>
+          <button class="projet-btn">
+            <a href="https://atalcitysquare.pl/" target="_blank">VOIR</a>
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+              <path d="M6 3L11 8L6 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  
+  <!-- ══════════ CHIFFRES ══════════ -->
+  <div class="chiffres">
+    <div class="chiffre-case">
+      <span class="chiffre-val">35<span class="chiffre-unite">ans</span></span>
+      <div class="chiffre-lib">D'expérience</div>
+    </div>
+    <div class="chiffre-case">
+      <span class="chiffre-val">35 207</span>
+      <div class="chiffre-lib">Appartements vendus</div>
+    </div>
+    <div class="chiffre-case">
+      <span class="chiffre-val">16</span>
+      <div class="chiffre-lib">Villes en Pologne</div>
+    </div>
+    <div class="chiffre-case">
+      <span class="chiffre-val">2M<span class="chiffre-unite">m²</span></span>
+      <div class="chiffre-lib">Surface totale vendue</div>
+    </div>
+  </div>
+
+
+ <!-- ══════════ GUIDE INVESTISSEUR ══════════ -->
+  <section id="guide" class="guide-investisseur">
+    <div class="guide-investisseur-inner">
+
+      <div class="guide-header">
+        <div>
+          <div class="etiquette">Information pratique</div>
+          <h2>Guide de l'<em>investisseur</em><br>en Pologne</h2>
+          <p>Toutes les informations clés pour investir sereinement depuis le Luxembourg — charges, fiscalité, cadre juridique.</p>
+        </div>
+      </div>
+
+      <div class="guide-tabs">
+        <button class="guide-tab active" onclick="switchTab('charges', this)">Charges & fiscalité propriétaire</button>
+        <button class="guide-tab" onclick="switchTab('contrat', this)">Contrat de location en Pologne</button>
+      </div>
+
+      <!-- PANEL 1 : CHARGES -->
+      <div id="panel-charges" class="guide-panel active">
+        <div class="guide-intro-grid">
+          <div class="guide-intro-item">
+            <span class="guide-intro-val">~14 €</span>
+            <span class="guide-intro-label">Taxe foncière / an</span>
+            <span class="guide-intro-sub">Pour un appartement de 50 m²</span>
+          </div>
+          <div class="guide-intro-item">
+            <span class="guide-intro-val">8,5 %</span>
+            <span class="guide-intro-label">Impôt sur les loyers</span>
+            <span class="guide-intro-sub">Taux forfaitaire — résidents & non-résidents</span>
+          </div>
+          <div class="guide-intro-item">
+            <span class="guide-intro-val">~3 %</span>
+            <span class="guide-intro-label">Frais d'acquisition</span>
+            <span class="guide-intro-sub">Notaire, taxes, admin inclus</span>
+          </div>
+        </div>
+
+        <div class="guide-accordeon">
+          <div class="accord-item open">
+            <div class="accord-header" onclick="toggleAccord(this)">
+              <div class="accord-left">
+                <span class="accord-num">01</span>
+                <span class="accord-title">Charges de copropriété (czynsz)</span>
+              </div>
+              <div style="display:flex;align-items:center;gap:1.5rem;">
+                <span class="accord-montant">70–120 PLN / mois (~16–28 €)</span>
+                <div class="accord-arrow">▾</div>
+              </div>
+            </div>
+            <div class="accord-body">
+              <div class="accord-body-inner">
+                Le syndicat de copropriété facture des frais mensuels couvrant le nettoyage, les ascenseurs, la sécurité, le ramassage des ordures et les réparations des parties communes. Pour un appartement de <strong>45 à 55 m²</strong>, le repère est d'environ <strong>70 à 120 PLN/mois</strong> (≈ 16 à 28 €). Ces frais sont souvent répercutés sur le locataire, mais en période de vacance, c'est le propriétaire qui les supporte.
+              </div>
+            </div>
+          </div>
+
+          <div class="accord-item">
+            <div class="accord-header" onclick="toggleAccord(this)">
+              <div class="accord-left">
+                <span class="accord-num">02</span>
+                <span class="accord-title">Taxe foncière</span>
+              </div>
+              <div style="display:flex;align-items:center;gap:1.5rem;">
+                <span class="accord-montant">~57 PLN / an (~14 €)</span>
+                <div class="accord-arrow">▾</div>
+              </div>
+            </div>
+            <div class="accord-body">
+              <div class="accord-body-inner">
+                La taxe foncière en Pologne est <strong>quasi symbolique</strong> : calculée sur la surface de plancher, avec un maximum d'environ <strong>1,15 PLN/m²/an</strong> pour les appartements en 2024. Pour un appartement de 50 m², cela représente environ <strong>57 PLN/an (≈ 14 €/an)</strong>.
+              </div>
+            </div>
+          </div>
+
+          <div class="accord-item">
+            <div class="accord-header" onclick="toggleAccord(this)">
+              <div class="accord-left">
+                <span class="accord-num">03</span>
+                <span class="accord-title">Fiscalité sur les revenus locatifs</span>
+              </div>
+              <div style="display:flex;align-items:center;gap:1.5rem;">
+                <span class="accord-montant">8,5 % ou 12,5 % selon les revenus</span>
+                <div class="accord-arrow">▾</div>
+              </div>
+            </div>
+            <div class="accord-body">
+              <div class="accord-body-inner">
+                <p style="margin-bottom:1rem;">Déclaration obligatoire auprès de l'<em>Urząd Skarbowy</em>. Deux régimes :</p>
+                <div class="fiscal-types">
+                  <div class="fiscal-type">
+                    <div class="fiscal-type-label">Régime forfaitaire (ryczałt)</div>
+                    <div class="fiscal-type-val">8,5 % — 12,5 %</div>
+                    <div class="fiscal-type-desc">Applicable résidents & non-résidents. Simple et avantageux.</div>
+                  </div>
+                  <div class="fiscal-type">
+                    <div class="fiscal-type-label">Régime général (zasady ogólne)</div>
+                    <div class="fiscal-type-val">12 % ou 32 %</div>
+                    <div class="fiscal-type-desc">Impôt progressif. Permet de déduire charges et amortissements.</div>
+                  </div>
+                </div>
+                <div class="guide-alert" style="margin-top:1rem;">
+                  <span class="guide-alert-icon">ℹ️</span>
+                  <div class="guide-alert-text"><strong>Bonne nouvelle :</strong> aucune cotisation sociale sur les revenus locatifs en Pologne.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="accord-item">
+            <div class="accord-header" onclick="toggleAccord(this)">
+              <div class="accord-left">
+                <span class="accord-num">04</span>
+                <span class="accord-title">Assurance habitation</span>
+              </div>
+              <div style="display:flex;align-items:center;gap:1.5rem;">
+                <span class="accord-montant">~180–250 € / an</span>
+                <div class="accord-arrow">▾</div>
+              </div>
+            </div>
+            <div class="accord-body">
+              <div class="accord-body-inner">
+                L'assurance de base représente environ <strong>0,1 % de la valeur du bien par an</strong>. Pour un bien à 180 000 €, cela donne <strong>180 à 250 € par an</strong>. Des garanties complémentaires sont disponibles à des tarifs très compétitifs.
+              </div>
+            </div>
+          </div>
+
+          <div class="accord-item">
+            <div class="accord-header" onclick="toggleAccord(this)">
+              <div class="accord-left">
+                <span class="accord-num">05</span>
+                <span class="accord-title">Entretien et réparations courantes</span>
+              </div>
+              <div style="display:flex;align-items:center;gap:1.5rem;">
+                <span class="accord-montant">200–600 € / an</span>
+                <div class="accord-arrow">▾</div>
+              </div>
+            </div>
+            <div class="accord-body">
+              <div class="accord-body-inner">
+                Prévoir <strong>1 à 2 mois de loyer par an</strong> pour les petites réparations, soit environ <strong>200 à 600 €</strong>. Pour un appartement ATAL neuf, ce poste reste très faible les premières années grâce à la garantie constructeur.
+              </div>
+            </div>
+          </div>
+
+          <div class="accord-item">
+            <div class="accord-header" onclick="toggleAccord(this)">
+              <div class="accord-left">
+                <span class="accord-num">06</span>
+                <span class="accord-title">Frais d'acquisition (à l'achat)</span>
+              </div>
+              <div style="display:flex;align-items:center;gap:1.5rem;">
+                <span class="accord-montant">~3 % du prix d'achat</span>
+                <div class="accord-arrow">▾</div>
+              </div>
+            </div>
+            <div class="accord-body">
+              <div class="accord-body-inner">
+                <p style="margin-bottom:0.75rem;">Trois composantes principales :</p>
+                <ul style="margin:0 0 0.85rem 1.1rem;padding:0;font-size:0.9rem;line-height:1.75;color:#444;">
+                  <li><strong>PCC (taxe sur actes civils)</strong> : 2 % de la valeur du bien sur le marché secondaire. <strong>Exonération totale pour les biens neufs</strong> (TVA appliquée à la place).</li>
+                  <li><strong>TVA (biens neufs uniquement)</strong> : 8 % pour les logements ≤ 150 m² (maisons ≤ 300 m²), 23 % au-delà — incluse dans le prix promoteur.</li>
+                  <li><strong>Frais de notaire (taksa notarialna)</strong> : plafonnés par la loi, dégressifs selon la valeur du bien (ex. : 1 010 PLN + 0,4 % au-dessus de 60 000 PLN).</li>
+                </ul>
+                <div class="guide-alert">
+                  <span class="guide-alert-icon">💡</span>
+                  <div class="guide-alert-text">Pour un appartement ATAL neuf, la PCC de 2 % ne s'applique pas — les frais d'acquisition totaux descendent à <strong>moins de 1 % du prix</strong>.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="guide-synthese">
+          <div class="guide-synthese-title">Synthèse — Appartement de 50 m² (exemple 2024–2025)</div>
+          <div class="synthese-ligne header">
+            <div class="synthese-cell">Poste de charge</div>
+            <div class="synthese-cell">Montant annuel (PLN)</div>
+            <div class="synthese-cell">Montant annuel (€)</div>
+          </div>
+          <div class="synthese-ligne">
+            <div class="synthese-cell label">Charges de copropriété</div>
+            <div class="synthese-cell">1 000 – 1 500 PLN</div>
+            <div class="synthese-cell montant">≈ 240 – 360 €</div>
+          </div>
+          <div class="synthese-ligne">
+            <div class="synthese-cell label">Taxe foncière</div>
+            <div class="synthese-cell">~57 PLN</div>
+            <div class="synthese-cell montant">≈ 14 €</div>
+          </div>
+          <div class="synthese-ligne">
+            <div class="synthese-cell label">Assurance</div>
+            <div class="synthese-cell">750 – 1 000 PLN</div>
+            <div class="synthese-cell montant">≈ 180 – 240 €</div>
+          </div>
+          <div class="synthese-ligne">
+            <div class="synthese-cell label">Entretien / réparations</div>
+            <div class="synthese-cell">800 – 2 400 PLN</div>
+            <div class="synthese-cell montant">≈ 200 – 600 €</div>
+          </div>
+          <div class="synthese-ligne">
+            <div class="synthese-cell label">Impôt sur les loyers</div>
+            <div class="synthese-cell">8,5 % ou 12,5 % des revenus</div>
+            <div class="synthese-cell">—</div>
+          </div>
+        </div>
+
+        <div class="guide-conclusion">
+          <strong>En résumé :</strong> la Pologne est un pays <strong>très favorable aux propriétaires bailleurs</strong> — taxe foncière quasi symbolique, aucun prélèvement social sur les loyers, charges de copropriété modestes. Contactez Immo Schreiber pour une simulation personnalisée.
+        </div>
+      </div>
+
+      <!-- PANEL 2 : CONTRAT -->
+      <div id="panel-contrat" class="guide-panel">
+        <div class="contrat-grid">
+          <div class="contrat-bloc">
+            <h3>Cadre juridique</h3>
+            <ul class="contrat-liste">
+              <li>Régi par le <strong>Code civil polonais</strong> (art. 659 à 692) et la loi du 21 juin 2001 sur la protection des droits des locataires.</li>
+              <li><strong>Najem zwykły</strong> — contrat standard entre propriétaire et locataire.</li>
+              <li><strong>Najem okazjonalny</strong> — formalités allégées, davantage de garanties pour le propriétaire.</li>
+            </ul>
+          </div>
+          <div class="contrat-bloc">
+            <h3>Éléments essentiels du contrat</h3>
+            <ul class="contrat-liste">
+              <li>Identité des parties (noms, adresses, numéros PESEL ou passeport)</li>
+              <li>Description complète du logement (adresse, surface, équipements)</li>
+              <li>Durée du bail (déterminée ou indéterminée)</li>
+              <li>Montant du loyer et modalités de paiement</li>
+              <li>Caution <strong>(kaucja)</strong>, généralement 1 à 3 mois de loyer</li>
+              <li>Obligations des deux parties + état des lieux initial</li>
+            </ul>
+          </div>
+          <div class="contrat-bloc">
+            <h3>Loyer & charges</h3>
+            <ul class="contrat-liste">
+              <li>Le loyer <strong>(czynsz)</strong> est fixé librement ; toute augmentation annuelle doit être notifiée par écrit avec un préavis de <strong>3 mois</strong>, indexée sur l'inflation (GUS).</li>
+              <li>Charges <strong>(opłaty)</strong> : électricité, gaz, chauffage, eau, internet, télédistribution.</li>
+              <li>Frais de copropriété <em>(czynsz administracyjny)</em> selon le règlement de l'immeuble.</li>
+            </ul>
+          </div>
+          <div class="contrat-bloc">
+            <h3>Caution & dépôt de garantie</h3>
+            <ul class="contrat-liste">
+              <li>La <strong>kaucja</strong> est restituable à la fin du bail, après déduction des dommages.</li>
+              <li>Maximum légal : <strong>3 mois de loyer</strong> conformément à la loi du 21 juin 2001.</li>
+              <li>Remboursée dans un <strong>délai d'1 mois</strong> après restitution du logement.</li>
+            </ul>
+          </div>
+          <div class="contrat-bloc">
+            <h3>Durée & résiliation</h3>
+            <ul class="contrat-liste">
+              <li><strong>Bail à durée déterminée</strong> : prend fin automatiquement à la date prévue.</li>
+              <li><strong>Bail à durée indéterminée</strong> : préavis écrit (locataire ~1 mois / propriétaire 3 mois minimum).</li>
+              <li>Motifs légaux propriétaire : non-paiement (+3 mois de retard), usage abusif, sous-location non autorisée.</li>
+            </ul>
+          </div>
+          <div class="contrat-bloc">
+            <h3>Fiscalité pour le propriétaire</h3>
+            <ul class="contrat-liste">
+              <li>Déclaration obligatoire au fisc polonais <strong>(Urząd Skarbowy)</strong>.</li>
+              <li><strong>Régime forfaitaire (ryczałt)</strong> : 8,5 % jusqu'à 100 000 PLN de revenus, puis 12,5 % au-delà.</li>
+              <li><strong>Régime général</strong> : impôt progressif 12 % ou 32 % selon le seuil.</li>
+              <li>Aucune cotisation sociale sur les revenus locatifs en Pologne.</li>
+            </ul>
+          </div>
+          <div class="contrat-bloc-full">
+            <h3>Exemple de clause de base (en polonais)</h3>
+            <div class="clause-polonais">
+              <div class="clause-polonais-title">Umowa najmu mieszkania — modèle standard</div>
+              <p>
+                Zawarta w dniu [data] w [miasto] pomiędzy:<br>
+                Wynajmującym: [imię, nazwisko, adres]<br>
+                a Najemcą: [imię, nazwisko, adres]<br><br>
+                §1. Przedmiotem najmu jest lokal mieszkalny położony w [adres], o powierzchni [m²].<br>
+                §2. Czynsz miesięczny wynosi [kwota] PLN i płatny jest do dnia [data] każdego miesiąca.<br>
+                §3. Umowa zostaje zawarta na czas [określony / nieokreślony].<br>
+                §4. Najemca zobowiązuje się do utrzymania mieszkania w należytym stanie i ponosi koszty mediów.<br>
+                §5. Kaucja wynosi [kwota] PLN i zostanie zwrócona po zakończeniu najmu.
+              </p>
+            </div>
+            <div class="guide-alert">
+              <span class="guide-alert-icon">💡</span>
+              <div class="guide-alert-text">
+                <strong>Conseils pratiques :</strong> Toujours signer un contrat écrit. Photographier l'état du logement avant et après. Tenir un double en polonais et en français. Pour plus de sécurité, optez pour un <em>najem okazjonalny</em> encadré par un notaire. <strong>Immo Schreiber vous accompagne dans toutes ces démarches, en français.</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ══════════ CTA CONTACT ══════════ -->
+  <section id="contact" class="cta">
+    <div class="cta-gauche">
+      <div class="etiquette">Passez à l'action</div>
+      <h2>Prêt à investir à<br><em>Wrocław</em> ?</h2>
+      <p>Immo Schreiber vous accompagne de A à Z — de la visite à la signature — en français, depuis le Luxembourg. Contactez-nous pour une consultation gratuite.</p>
+      <a href="https://atal.pl/en/inwestycje/apartments/wroclaw-en-apartments/" target="_blank" class="btn-blanc-plein">Voir le catalogue complet →</a>
+    </div>
+    <div id="pourquoi" class="cta-droite">
+      <div class="etiquette">Immo Schreiber</div>
+      <h2>Nous <em>contacter</em></h2>
+      <div class="contact-infos">
+        <div class="contact-item">
+          <div class="contact-icone"><img src="./images/phone-solid-full.svg" alt=""></div>
+          <div class="contact-val">
+            <small>Téléphone</small>
+            <a href="tel:+352621260341">+352 621 260 341</a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icone"><img src="./images/globe-solid-full.svg" alt=""></div>
+          <div class="contact-val">
+            <small>Site officiel ATAL</small>
+            <a href="https://atal.pl/en/inwestycje/apartments/wroclaw-en-apartments/" target="_blank">atal.pl — Appartements Wrocław</a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icone"><img src="./images/location-pin-solid-full.svg" alt=""></div>
+          <div class="contact-val">
+            <small>Localisation</small>
+            Luxembourg · Projets à Wrocław, Pologne
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ══════════ FOOTER ══════════ -->
+  <footer>
+    <div class="footer-logos">
+      <strong style="color:rgba(255,255,255,0.6);font-size:0.8rem;letter-spacing:0.15em;">IMMO SCHREIBER</strong>
+    </div>
+    <p>© 2025 Immo Schreiber × ATAL S.A. — Site de présentation non officiel</p>
+    <a href="https://atal.pl/en/inwestycje/apartments/wroclaw-en-apartments/" target="_blank" class="footer-lien">Site officiel ATAL →</a>
+  </footer>
+
+
+  <!-- ══════════ JAVASCRIPT ══════════ -->
+  <script>
+    // Nav scroll
+    const nav = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('scrolled', window.scrollY > 60);
+    });
+
+    // Guide tabs
+    function switchTab(panel, btn) {
+      document.querySelectorAll('.guide-panel').forEach(p => p.classList.remove('active'));
+      document.querySelectorAll('.guide-tab').forEach(t => t.classList.remove('active'));
+      document.getElementById('panel-' + panel).classList.add('active');
+      btn.classList.add('active');
+    }
+
+    // Accordéon
+    function toggleAccord(header) {
+      const item = header.parentElement;
+      const body = item.querySelector('.accord-body');
+      const isOpen = item.classList.contains('open');
+      document.querySelectorAll('.accord-item.open').forEach(openItem => {
+        if (openItem !== item) {
+          openItem.classList.remove('open');
+          openItem.querySelector('.accord-body').style.maxHeight = '0';
+        }
+      });
+      if (isOpen) {
+        item.classList.remove('open');
+        body.style.maxHeight = '0';
+      } else {
+        item.classList.add('open');
+        body.style.maxHeight = body.scrollHeight + 'px';
+      }
+    }
+
+    document.querySelectorAll('.accord-item.open').forEach(item => {
+      item.querySelector('.accord-body').style.maxHeight = item.querySelector('.accord-body').scrollHeight + 'px';
+    });
+
+    // Modals projets
+    function ouvrirModal(id) {
+      const m = document.getElementById(id);
+      m.classList.add('actif');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function fermerModal(id) {
+      const m = document.getElementById(id);
+      m.classList.remove('actif');
+      document.body.style.overflow = '';
+    }
+
+    function fermerModalOverlay(e, id) {
+      if (e.target === document.getElementById(id)) fermerModal(id);
+    }
+
+    // Fermer avec Escape
+    document.addEventListener('keydown', e => {
+      if (e.key === 'Escape') {
+        document.querySelectorAll('.modal-overlay.actif').forEach(m => {
+          m.classList.remove('actif');
+          document.body.style.overflow = '';
+        });
+      }
+    });
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
