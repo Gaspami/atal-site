@@ -140,11 +140,11 @@ nav.scrolled {
 
 .hero img {
   position: absolute;
-  top: var(--nav-h); /* commence après la navbar */
+  top: var(--nav-h);
   left: 0;
   width: 100%;
-  height: calc(100% - var(--nav-h)); /* ajuste la hauteur */
-  object-fit: contain; /* montre l'image en entier sans crop */
+  height: calc(100% - var(--nav-h));
+  object-fit: cover; /* ← cover au lieu de contain */
   object-position: center center;
   display: block;
 }
